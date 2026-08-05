@@ -1,4 +1,4 @@
-````md id="x7m4qp"
+
 # Cache Invalidation in .NET & Distributed Systems
 
 # Introduction
@@ -948,4 +948,3 @@ When data changes, an event is published through a message broker (such as Kafka
 - **Version-Based** invalidation avoids race conditions by changing cache keys instead of deleting entries.
 - Protect your cache against **stampedes**, **penetration**, and **avalanches** using appropriate strategies.
 - Cache invalidation is as important as caching itself—poor invalidation can negate the benefits of caching.
-````
